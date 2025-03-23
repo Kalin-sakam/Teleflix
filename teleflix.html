@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Téléflix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        .faq-section {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+        }
+        .faq-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 15px;
+        }
+        .faq-question {
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        .faq-question i {
+            color: #007bff;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <i class="bi bi-film text-primary me-2"></i>
+            <span class="fw-bold">Téléflix</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#features">Fonctionnalités</a></li>
+                <li class="nav-item"><a class="nav-link" href="#how-it-works">Comment ça marche ?</a></li>
+                <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+            <a href="https://t.me/mon_teleflix_bot" class="btn btn-primary ms-3">
+                <i class="bi bi-telegram"></i> Accéder au bot
+            </a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero-section d-flex align-items-center text-center text-white">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Téléchargez vos films préférés en un instant !</h1>
+        <p class="lead">Avec Téléflix, trouvez et téléchargez facilement vos films via Telegram.</p>
+        <a href="https://t.me/mon_teleflix_bot" class="btn btn-danger btn-lg mt-3">
+            <i class="bi bi-rocket"></i> Lancer le bot
+        </a>
+    </div>
+</header>
+
+<!-- Fonctionnalités -->
+<section id="features" class="container py-5">
+    <h2 class="text-center fw-bold">Fonctionnalités</h2>
+    <div class="row text-center mt-4">
+        <div class="col-md-4">
+            <i class="bi bi-search text-primary display-4"></i>
+            <h4 class="mt-3">Recherche de Films</h4>
+            <p>Recherchez rapidement des films parmi une large bibliothèque.</p>
+        </div>
+        <div class="col-md-4">
+            <i class="bi bi-download text-success display-4"></i>
+            <h4 class="mt-3">Téléchargement Rapide</h4>
+            <p>Obtenez vos films en un clic directement sur Telegram.</p>
+        </div>
+        <div class="col-md-4">
+            <i class="bi bi-send text-primary display-4"></i>
+            <h4 class="mt-3">Simple & Efficace</h4>
+            <p>Une interface fluide et intuitive pour une expérience utilisateur optimale.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Comment ça marche -->
+<section id="how-it-works" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center fw-bold">Comment ça marche ?</h2>
+        <ol class="mt-4 list-group list-group-numbered w-50 mx-auto">
+            <li class="list-group-item">Accédez au bot Telegram.</li>
+            <li class="list-group-item">Recherchez un film en tapant son nom.</li>
+            <li class="list-group-item">Recevez le fichier du film instantanément.</li>
+            <li class="list-group-item">Téléchargez et profitez !</li>
+        </ol>
+    </div>
+</section>
+
+<section class="faq-section">
+    <div class="container">
+        <h2 class="text-center mb-4">Foire Aux Questions</h2>
+        <div class="faq-card">
+            <h4 class="faq-question"><i class="fas fa-question-circle"></i> Le bot est-il gratuit ?</h4>
+            <p>Oui, Téléflix est 100% gratuit.</p>
+        </div>
+        <div class="faq-card">
+            <h4 class="faq-question"><i class="fas fa-question-circle"></i> Sur quels appareils fonctionne-t-il ?</h4>
+            <p>Le bot est accessible sur tout appareil utilisant Telegram.</p>
+        </div>
+        <div class="faq-card">
+            <h4 class="faq-question"><i class="fas fa-question-circle"></i> Pourquoi le bot ne fonctionne pas ?</h4>
+            <p>Supprimez votre chat et recommencez en cas de bug. En cas de maintenance, veuillez patienter.</p>
+        </div>
+        <div class="faq-card">
+            <h4 class="faq-question"><i class="fas fa-question-circle"></i> Comment voir la liste de films disponible ?</h4>
+            <p>La liste de films est disponible dans le canal Telegram et aussi accessible dans le bot en tapant la commande <code>/listfilms</code>.</p>
+        </div>
+        <div class="faq-card">
+            <h4 class="faq-question"><i class="fas fa-question-circle"></i> Les films sont-ils récents ?</h4>
+            <p>Oui, nous disposons d'une large bibliothèque de films régulièrement mise à jour.</p>
+        </div>
+        <div class="faq-card">
+            <h4 class="faq-question"><i class="fas fa-question-circle"></i> Les séries sont-elles disponibles ?</h4>
+            <p>Oui, pour voir les séries disponibles, accédez au canal Téléflix et copiez le format de demande des épisodes. Ex: <code>Prison Break S01 E01</code>.</p>
+        </div>
+        <div class="faq-card">
+            <h4 class="faq-question"><i class="fas fa-question-circle"></i> Pourquoi doit-on s'abonner aux chaînes ?</h4>
+            <p>Afin de nous soutenir, nous et nos partenaires, pour continuer à vous offrir des services gratuits de qualité.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>© 2025 Téléflix. Tous droits réservés.</p>
+    <p>Développé par <strong>ETS MBO ET FILS</strong></p>
+</footer>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+</body>
+</html>
